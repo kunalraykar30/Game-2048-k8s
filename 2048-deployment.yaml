@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: "2048"
-  replicas: 7
+  replicas: 5
   template:
     metadata:
       labels:
